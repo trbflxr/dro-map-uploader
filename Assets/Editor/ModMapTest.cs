@@ -70,10 +70,10 @@ namespace Editor
             new ValidItem(nameof(HDAdditionalReflectionData), 0, 200),
             new ValidItem(nameof(Volume), 1, 1),
             //Render
-            new ValidItem(nameof(MeshRenderer), 0, 1000),
-            new ValidItem(nameof(MeshFilter), 0, 1000),
+            new ValidItem(nameof(MeshRenderer), 0, 100000),
+            new ValidItem(nameof(MeshFilter), 0, 100000),
             new ValidItem(nameof(Light), 0, 200),
-            new ValidItem(nameof(LODGroup), 0, 1000),
+            new ValidItem(nameof(LODGroup), 0, 100000),
             new ValidItem(nameof(Animator), 0, 100),
             // UI
             new ValidItem(nameof(Canvas), 0, 10),
